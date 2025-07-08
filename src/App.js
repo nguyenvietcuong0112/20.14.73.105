@@ -34,7 +34,6 @@ function Header() {
             {!isPolicyPage && (
               <nav className="nav">
                 <Link to="/" className="nav-link">HOME</Link>
-                <a href="#about" className="nav-link">ABOUT US</a>
                 <Link to="/policy" className="nav-link">POLICY</Link>
                 <a href="#contact" className="nav-link">CONTACT</a>
               </nav>
